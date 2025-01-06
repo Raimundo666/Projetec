@@ -68,6 +68,14 @@ const routes: Routes = [
     path: 'grafico-planejamento',
     loadChildren: () => import('./grafico-planejamento/grafico-planejamento.module').then( m => m.GraficoPlanejamentoPageModule)
   },
+  {
+    path: 'centralajuda',
+    loadChildren: () => import('./centralajuda/centralajuda.module').then( m => m.CentralajudaPageModule)
+  },
+  {
+    path: 'sobrenos',
+    loadChildren: () => import('./sobrenos/sobrenos.module').then( m => m.SobrenosPageModule)
+  },
 
 
 
