@@ -20,11 +20,11 @@ ion-header{
 
 ion-button {
     box-shadow: none;
-    --box-shadow: none; /* Para lidar com variações de estilo específicas do Ionic */
+    --box-shadow: none; 
     border: none;
-    --background: transparent; /* Se quiser remover o fundo */
-    --background-activated: transparent; /* Remove o fundo ao clicar */
-    --background-focused: transparent; /* Remove o fundo ao focar */
+    --background: transparent; 
+    --background-activated: transparent; 
+    --background-focused: transparent; 
 }
 
 .arrowMonthLeftRENDA{

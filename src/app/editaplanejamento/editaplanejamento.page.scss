@@ -1,0 +1,77 @@
+.formaPlan{
+    margin: 5vw;
+    border-radius: 5000px;
+}
+
+.categoria-gastosPlan{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+}
+
+.gastosPlan{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.form-bottom-valor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nomePlan{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.recorrentePlan{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.quadroTop{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.quadroBottom{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 2vh;
+    
+}
+
+
+
+
+
+
+
+
+ion-input {
+    --color: white; 
+    color: white;  
+    margin-top: 3vh;
+}
+
+ion-datetime {
+    --background: rgb(245, 235, 247);
+    --background-rgb: 40, 45, 201;
+    --wheel-highlight-background: rgb(173, 169, 248);
+    --wheel-highlight-border-radius: 48px;
+    --wheel-fade-background-rgb: 245, 235, 247;
+
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+  
+    border-radius: 16px;
+
+}
+
+
+  
