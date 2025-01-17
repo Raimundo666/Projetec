@@ -1,36 +1,154 @@
-* {
-	--ion-color-primary: #2881B8;
-	--ion-color-secondary: #20638C;
-	--ion-color-tertiary: #1A4C6B;
-	--ion-color-danger: #c5000f;
-    --ion-color-shade: #f5f4f4;
-    margin: 0%;
+.form-top-valor{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  
+  .form-bottom-valor{
+    //border-bottom-left-radius: 10px;
+    //border-bottom-right-radius: 10px;
+    //margin-bottom: 2vh;
     
-}ion-content {
-    --background: #20638c;
-}
-
-html{
-    overflow: hidden;
-}
-
-ion-toolbar{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .butt{
+  font-size: 4vw;
+  padding: 0%;
+  }
+  
+  .gastos-quadro{
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  
+  padding: 0%;
+  }
+  
+  .button-form-enviar{
     color: white;
-}
+    border-radius: 10px;
+    background-color: rgb(1, 40, 64);
+  }
+  
+  
+  ion-chip {
+    display: block; 
+    width: auto; 
+    margin: 8px 0; 
+    justify-content: flex-start; 
+  }
+  
+  ion-grid {
+    --ion-grid-padding: 0; 
+  }
+  
+  ion-row {
+    justify-content: flex-start; 
+    
+  }
+  
+  ion-col {
+    margin-bottom: 8px; 
+  }
+  
+  
+  
+  ion-input {
+    --color: white; 
+    color: white;  
+    margin-top: 3vh;
+  }
+  
+  ion-input .input-wrapper {
+    color: white !important; 
+  }
+  
+  
+  
+  
+  
+  ion-datetime {
+    --background: rgb(245, 235, 247);
+    --background-rgb: 40, 45, 201;
+    --wheel-highlight-background: rgb(173, 169, 248);
+    --wheel-highlight-border-radius: 48px;
+    --wheel-fade-background-rgb: 245, 235, 247;
+  
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+  
+    border-radius: 16px;
+  
+  }
+  
+  ion-datetime::part(wheel-item) {
+    color: #20638c;
+  }
+  
+  ion-datetime::part(wheel-item active) {
+    color: rgb(0, 0, 0);
+  }
+  
+  ion-label {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    font-size: 18px;
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .vertical-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    width: 100%;
+  }
+  
+  .chip-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+    justify-content: flex-start; 
+  }
+  
+  .gastos-quadro {
+    margin-top: 10px; 
+  }
+  
+  ion-chip {
+    padding: 8px;
+    font-size: 16px; 
+  }
+  
+  .butt {
+    font-size: 16px; 
+    padding: 0;
+  }
+  
+  ion-input {
+    --color: white;
+    color: white;
+    margin-top: 3vh;
+  }
+  
+  input {
+    --color: white;
+    color: white;
+    --placeholder-color: lightgray;
+  }
 
-ion-datetime{
-    transform: scale(0.8);
-    background-color: #1A4C6B;
-    margin-left: 18%;
-}
 
-ion-button{
-    --color: #f5f4f4;
-    --background: #012840;
-
-}
-
-ion-label{
-    --color:#f5f4f4;
-    --background:#012840;
-}
