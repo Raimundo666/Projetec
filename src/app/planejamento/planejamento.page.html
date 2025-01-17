@@ -1,5 +1,9 @@
 <ion-header>
+
   <ion-toolbar color="secondary">
+
+
+
 
     <div class="toolbar-fix" style="color: white;">
 
@@ -11,7 +15,11 @@
 
       <div class="month-fix">
 
+
         <ion-button (click)="anteriorMes()" color="secondary">
+
+       
+
           <ion-icon class="arrowMonthLeftRENDA" name="arrow-back-circle-outline" color="light"></ion-icon>
         </ion-button>
 
@@ -19,7 +27,9 @@
           {{ mudancasMes }}
         </ion-title>
 
+
           <ion-button (click)="proximoMes()" color="secondary">
+
             <ion-icon class="arrowMonthRightRENDA" name="arrow-forward-circle-outline" color="light"></ion-icon>
           </ion-button>
         
@@ -31,9 +41,11 @@
   </ion-toolbar>
 </ion-header>
 
+
 <ion-content class="ion-padding" color="primary">
   
     <ion-item *ngFor="let planejamento of planejamentos" color="secondary" class="grid-container">
+
       <ion-label color="light">
         <h2 color="light">Planejamento: {{ planejamento.categoria }}</h2>
         <p>R$ {{ planejamento.gastos }} de R$ {{ planejamento.meta_de_despesas }} | Data: {{ planejamento.mes }}/{{ planejamento.ano }} | Recorrente: {{ planejamento.recorrente }}</p>
@@ -47,6 +59,7 @@
         </ion-button>
       </ion-buttons>
     </ion-item>
+
   
   
   </ion-content>
